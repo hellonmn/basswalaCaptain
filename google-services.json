@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "347346565339",
+    "project_id": "basswala-f4940",
+    "storage_bucket": "basswala-f4940.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347346565339:android:1daf1b31e9ebcda95574fe",
+        "android_client_info": {
+          "package_name": "com.basswala.djrental"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2Fuc5UNS1-hQYdyRFgvbSPW9MONUVae4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
