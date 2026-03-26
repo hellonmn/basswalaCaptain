@@ -1,5 +1,6 @@
 import { Ionicons } from "@expo/vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
+import { useRouter } from "expo-router";
 import React, { useCallback, useEffect, useState } from "react";
 import {
   ActivityIndicator,
@@ -18,6 +19,7 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { bookingApi } from "../../services/captainApi";
+
 
 const { width } = Dimensions.get("window");
 
@@ -414,6 +416,8 @@ export default function BookingsScreen() {
   const [hasMore, setHasMore] = useState(true);
   const [totalCount, setTotalCount] = useState(0);
 
+  const router = useRouter();
+
   const [selectedBooking, setSelectedBooking] = useState<Booking | null>(null);
   const [showDetail, setShowDetail] = useState(false);
   const [showStatusModal, setShowStatusModal] = useState(false);
@@ -569,8 +573,7 @@ export default function BookingsScreen() {
                 <BookingCard
                   booking={item}
                   onPress={() => {
-                    setSelectedBooking(item);
-                    setShowDetail(true);
+                    router.push(`/bookings/${item.id}`);   // Opens full screen
                   }}
                 />
               )}

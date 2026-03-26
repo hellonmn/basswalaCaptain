@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "basswala",
-    "slug": "basswala",
+    "slug": "bw-captain",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.basswala.djrental",
+      "bundleIdentifier": "com.basswala.captain",
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "We need your location to show DJ equipment available in your area",
         "NSLocationAlwaysUsageDescription": "We need your location to show DJ equipment available in your area"
@@ -24,7 +24,7 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "package": "com.basswala.djrental",
+      "package": "com.basswala.captain",
       "permissions": [
         "ACCESS_COARSE_LOCATION",
         "ACCESS_FINE_LOCATION",
@@ -73,8 +73,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "ec682222-b0c3-4654-981c-37883c47cfbc"
+        "projectId": "a33fb0ba-ff10-4bd1-a779-cce63a3918d8"
       }
-    }
+    },
+    "owner": "heynmn"
   }
 }
